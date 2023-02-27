@@ -1,0 +1,183 @@
+<!DOCTYPE hmtl>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      Jeu du Pendu
+    </title>
+    <link href="images/logo.png" rel="icon">
+    <!-- CSS -->       
+    <link rel="stylesheet" href="asset\bootstrap-4.6.0-dist\bootstrap-4.6.0-dist\css\bootstrap.min.css" />
+    <link rel="stylesheet" href="asset\css\styles.css"/>
+  </head>
+
+  <body>
+    <header class="header sticky" id="header-page-accueil">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg fixed-top-navbar navbar-light ">
+          <a class="navbar-brand" href="#">
+              <img src="images/logo.png" class="logo"alt="logo">
+              <h1>Jeu du Pendu</h1>
+          </a>
+        </nav>
+      </div>
+    </header>
+    <section class="banniere">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 text-white banniere-contenu">
+              <div class="word ">
+                <div class="boite">
+                  <div>
+                    <form>
+                      <fieldset class="clavier ">
+                        <legend class="text-center">
+                          <h2 class="text-white">
+                            Le mot à trouver
+                          </h2>
+                        </legend>
+                        <input readonly="readonly" class="current-letter">
+                        <input readonly="readonly" class="current-letter">
+                        <input readonly="readonly" class="current-letter">
+                        <input readonly="readonly" class="current-letter">
+                        <input readonly="readonly" class="current-letter">
+                        <input readonly="readonly" class="current-letter">
+                        <input readonly="readonly" class="current-letter">
+                        <input readonly="readonly" class="current-letter">
+                        <input readonly="readonly" class="current-letter">
+                        <input readonly="readonly" class="current-letter">
+                        <input readonly="readonly" class="current-letter">
+                        <input readonly="readonly" class="current-letter">
+                        <input readonly="readonly" class="current-letter">
+                        <input readonly="readonly" class="current-letter">
+                      </fieldset>
+                      <p id="compteur" class="color-tertiaire">
+
+                      </p>
+                    </form>
+                  </div>
+                </div>
+            </div>
+            <div>
+              <form>
+                <fieldset>
+                  <legend class=text-center>
+                  <h2 class="text-white">
+                    Choissisez bien
+                  </h2>
+                  </legend>
+                  <div class="lettre clavier">
+                    <input id="1" type="button" class="button_game button_alt" value="a">
+                      
+                    <input id="2" type="button" class="button_game button_alt  " value="b">
+                      
+                    <input id="3" type="button" class="button_game button_alt  " value="c">
+                      
+
+                    <input id="4" type="button" class="button_game button_alt  " value="d">
+                      
+                    <input id="5" type="button" class="button_game button_alt  " value="e">
+                      
+                    <input id="6" type="button" class="button_game button_alt  " value="f">
+                      
+                    <input id="7" type="button" class="button_game button_alt  " value="g">
+                      
+                  
+                    <input id="8" type="button" class="button_game button_alt  " value="h">
+                      
+                    <input id="9" type="button" class="button_game button_alt  " value="i">
+                      
+                    <input id="10" type="button" class="button_game button_alt  " value="j">
+                      
+                    <input id="11" type="button" class="button_game button_alt  " value="k">
+                      
+                    
+                    <input id="12" type="button" class="button_game button_alt  " value="l">
+                      
+                    <input id="13" type="button" class="button_game button_alt  " value="m">
+                      
+                    <input id="14" type="button" class="button_game button_alt  " value="n">
+                      
+                    <input id="15" type="button" class="button_game button_alt  " value="o">
+                      
+                    
+                    <input id="16" type="button" class="button_game button_alt  " value="p">
+                      
+                    <input id="17" type="button" class="button_game button_alt  " value="q">
+                      
+                    <input id="18" type="button" class="button_game button_alt  " value="r">
+                      
+                    <input id="19" type="button" class="button_game button_alt  " value="s">
+                    
+                    <input id="20" type="button" class="button_game button_alt  " value="t">
+                    
+                    <input id="21" type="button" class="button_game button_alt  " value="u">
+                    
+                    <input id="22" type="button" class="button_game button_alt  " value="v">
+                    
+                    <input id="23" type="button" class="button_game button_alt  " value="w">
+                    
+                    <input id="24" type="button" class="button_game button_alt  " value="x">
+                    
+                    <input id="25" type="button" class="button_game button_alt  " value="y">
+                    
+                    <input id="26" type="button" class="button_game button_alt  " value="z">
+                  
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+            <div class="">
+              <form class="text-center">
+                <div class="btn-group" role="group">
+                  <button type="button" class="btn" id="lancer">
+                    JOUER
+                  </button>
+              
+                  <button type="button" class="btn" id="verifier" style="display:none;">
+                    VERIFIER
+                  </button>
+                  
+                  <button type="button" class="btn " id="reinitialiser" >
+                    VIDER
+                  </button>
+              
+              
+                  <button type="button" class="btn " id="solution" >
+                    SOLUTION
+                  </button>
+                </div>  
+              </form>
+            </div>
+          </div>
+             
+              
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <footer class="footer text-center text-white">
+        <div class="container-fluid">
+          <div class="container">
+            <div>
+              <h2>Jeu du pendu</h2>
+              <h3>La Réunion</h3>
+              <div>
+                <p>-Site réalisé dans le cadre d'un projet d'examen-</p>
+                <p>DWWM AFPAR</p>
+                <a href="mailto:mywebjob@outlook.fr">mywebjob@outlook.fr</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p class="copyright">&copy; Tous droits réservés | Developpement et Design par Christian Marais</p>
+          </div>
+        </div>
+    </footer>
+    <script src="asset\Jquery\jquery.js"></script>
+    <script src="asset\bootstrap-4.6.0-dist\bootstrap-4.6.0-dist\js\bootstrap.bundle.min.js" ></script>
+    <script type='text/javascript' src='asset\script.js'></script>
+  </body>
+</html>
